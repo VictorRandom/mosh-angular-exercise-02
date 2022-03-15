@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StarComponent } from './star/star.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PipetextComponent } from './pipetext/pipetext.component';
+import { PipetextPipe } from './pipetext.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StarComponent
+    StarComponent,
+    PipetextComponent,
+    PipetextPipe
   ],
   imports: [
     BrowserModule,
