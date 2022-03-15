@@ -1,0 +1,15 @@
+<div
+  (click)="changeBackground()"
+  [class]="isActive ? 'a' : 'b'"
+>
+  Exercise
+</div>
+
+<div
+  (click)="changeBackground()"
+  class="teste"
+  [class.a]="isActive"
+  [class.b]="!isActive"
+>
+  Exercise
+</div>
